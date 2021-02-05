@@ -1,0 +1,105 @@
+
+body{
+    background : red;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+/* Utility classes */
+
+.img-responsive {
+    max-width : 100%;
+}
+
+/* Button Section */
+
+.hero_image
+{
+    background : url("Food Images/FOOD Main.jfif") no-repeat;
+    /* -webkit-background-size : cover; */
+    background-size : cover;
+    height : 100vh;
+    position : relative;
+}
+
+.hero_wrapper{
+    color : white;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : (-50%, -50%);
+}
+
+.hero_wrapper h1
+{
+    font-size : 2.4rem;
+    text-align : center;
+}
+
+.hero_wrapper span
+{
+    /* text-align : center; */
+    /* OR */
+    margin-left : 10rem;
+    display : inline_block;
+    margin-bottom : 2rem;
+}
+
+.form_code
+{
+    text-align : center;
+}
+
+.form_code .post_code
+{
+    display : block;
+    width : 70%;
+    margin-left : auto;
+    margin-right : auto;
+    border-radius : 2rem;
+    padding : .8rem;
+    border : solid;
+    outline : 1px;
+}
+
+.form_code button{
+    width : 50%;
+    display : inline_block;
+    text-align : center;
+    background-color : #00bab1;
+    color : white;
+    padding : .5rem;
+    margin : 1rem auto 0rem;
+    border : none;
+    border-radius : .5rem;
+}
+
+/* PRODUCT Section */
+
+.product_section
+{
+    width : 80%;
+    /* margin : 10rem auto auto; */
+    /* margin-left : auto;
+    margin-right : auto;
+    margin-top : 10rem; */
+}
+
+.item {
+    float : left;
+    width : 25%;
+    margin-top : 2rem;
+    margin-left : 2rem;
+    margin-right : 2rem;
+}
+
+/* .item:first-of-type
+{
+    margin-left : auto;
+} */
+
+@media screen and (max-width : 700px){
+    .item {
+        width : 100%;
+        float : none;
+    }
+}
