@@ -50,8 +50,68 @@ h1 a{
     font-size : 15px;
     padding : 5px 20px 5px 20px;
     margin-top : 10px;
+    border : 1px solid #d505d2;
 }
 
 .clear{
     clear : both;
 }
+
+
+ul{
+    list-style : none;
+}
+
+#menu{
+    height : 70px;
+    background : linear-gradient(#d0e003, #f0fb6b);
+    padding : 7px 0;
+}
+
+#menu ul li{
+    float : left;
+    padding : 10px 10px;
+    height : 20px;
+    border-right : 1px solid #d505d2;
+}
+
+#menu ul li:last-child{
+    border-right : none;
+}
+
+#menu ul li a{
+    text-decoration : none;
+    text-transform : uppercase;
+    font-size : 17px;
+    color : #081dc0;
+    line-height : 20px;
+    transition : font-size 0.5s ease;
+}
+
+#menu li a:hover, #menu li a.active{
+    font-size : 20px;
+    font-weight : bold;
+    color : #fe06fa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
